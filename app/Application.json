@@ -1,0 +1,30 @@
+{
+  "applicationId" : "f20d0c57-5607-42d6-a33a-f5a62f8be8fe",
+  "applicationName" : "Xactly Benchmarking",
+  "icon" : "LogoIconOnlyBenchmarkingComponent",
+  "sections" : [ {
+    "name" : "Plan",
+    "icon" : "Grid",
+    "pageDefinitionId" : "f70eef9b-0616-47b5-ac05-199a45594988",
+    "description" : "",
+    "sections" : [ ],
+    "accessRoles" : null,
+    "privileges" : null,
+    "isReferredPage" : false
+  }, {
+    "name" : "Spend",
+    "icon" : "Chart",
+    "pageDefinitionId" : "62de0253-8bf2-46fd-8731-97e33d9f39ca",
+    "description" : "",
+    "sections" : [ ],
+    "accessRoles" : null,
+    "privileges" : null,
+    "isReferredPage" : false
+  } ],
+  "accessRoles" : [ ],
+  "tagIds" : [ ],
+  "applicationState" : "DRAFT",
+  "gitUrl" : "https://github.com/pshekarappa/bm-test-v2-1",
+  "defaultBranch" : "main",
+  "applicationI18nFiles" : [ ]
+}
