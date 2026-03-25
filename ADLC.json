@@ -1,0 +1,13 @@
+{
+  "application" : "app/Application.json",
+  "queries" : null,
+  "workflows" : null,
+  "pageDefinitions" : [ "app/62de0253-8bf2-46fd-8731-97e33d9f39ca.json", "app/f70eef9b-0616-47b5-ac05-199a45594988.json" ],
+  "policySets" : null,
+  "tables" : null,
+  "compositeComponents" : [ {
+    "pageDefinitionId" : "54f4fa0a-1ef3-44af-873b-79ab2e3fda47",
+    "path" : "app/54f4fa0a-1ef3-44af-873b-79ab2e3fda47.json"
+  } ],
+  "applicationTags" : null
+}
