@@ -1,0 +1,1124 @@
+{
+  "pageDefinitionId" : "54f4fa0a-1ef3-44af-873b-79ab2e3fda47",
+  "pageSchema" : {
+    "properties" : { },
+    "controlSchema" : {
+      "schema" : {
+        "type" : "object",
+        "properties" : {
+          "control_109" : {
+            "type" : "page_config",
+            "controlId" : "bb5d2361-c0f1-4a59-b940-bc7bef8548da",
+            "useGreyBackgroundPage" : true
+          },
+          "control_311" : {
+            "type" : "tabContainer",
+            "controlId" : "c2b3d54d-ca0a-4f5b-b561-fd5897227eaf",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "kpi_no_plan",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "c2b3d54d-ca0a-4f5b-b561-fd5897227eaf",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "kpi_quota_att",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "c2b3d54d-ca0a-4f5b-b561-fd5897227eaf",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "kpi_quota_per",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "c2b3d54d-ca0a-4f5b-b561-fd5897227eaf",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "kpi_quota_emp",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "c2b3d54d-ca0a-4f5b-b561-fd5897227eaf",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "kpi_annual_quota",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "c2b3d54d-ca0a-4f5b-b561-fd5897227eaf",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "kpi_variable_earn",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "c2b3d54d-ca0a-4f5b-b561-fd5897227eaf",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "variables" : [ ],
+            "tabType" : "primary",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_312" : {
+                      "type" : "tab",
+                      "controlId" : "04405965-f5b9-4e3f-8958-45a64cc1dee8",
+                      "accessRoles" : null,
+                      "privileges" : null,
+                      "styles" : {
+                        "useComponentShadow" : false,
+                        "useGreyBackground" : false,
+                        "useInnerGreyBackground" : false
+                      },
+                      "events" : [ ],
+                      "controlData" : "Number Of Plans",
+                      "pageSchema" : {
+                        "properties" : { },
+                        "controlSchema" : {
+                          "schema" : {
+                            "type" : "object",
+                            "properties" : {
+                              "control_313" : {
+                                "type" : "label",
+                                "controlId" : "cd58d9e7-22dd-4254-b72b-38e2ee5c8502",
+                                "accessRoles" : null,
+                                "privileges" : null,
+                                "styles" : {
+                                  "useComponentShadow" : false,
+                                  "useGreyBackground" : false,
+                                  "useInnerGreyBackground" : false
+                                },
+                                "events" : [ ],
+                                "controlData" : "<p><span style=\"color: #34495e; font-size: 13.3333px;\">This metric represents the sum of the unique plans in the period divided by the total number of unique businesses in the period. The comparison data shows the difference between </span><em style=\"color: #34495e; font-size: 13.3333px;\" data-path-to-node=\"2\" data-index-in-node=\"178\">Your Peer Group</em><span style=\"color: #34495e; font-size: 13.3333px;\">&nbsp;and&nbsp;</span><em style=\"color: #34495e; font-size: 13.3333px;\" data-path-to-node=\"2\" data-index-in-node=\"198\">Your Company</em><span style=\"color: #34495e; font-size: 13.3333px;\">. A detailed view (accessible by clicking Show More) shows the distribution of the number of plans, as well as the number of plans over time and by industry.</span></p>",
+                                "layoutSize" : null,
+                                "intl" : false,
+                                "helpIconPosition" : "alignLeft",
+                                "helpIconTooltipPosiiton" : "right",
+                                "helpIconValue" : null,
+                                "shouldRenderHidden" : false
+                              },
+                              "control_327" : {
+                                "type" : "composedChart",
+                                "controlId" : "f456045b-8187-42ee-a6c0-b75c162697ba",
+                                "accessRoles" : null,
+                                "privileges" : null,
+                                "styles" : {
+                                  "useComponentShadow" : false,
+                                  "useGreyBackground" : false,
+                                  "useInnerGreyBackground" : false
+                                },
+                                "events" : [ {
+                                  "name" : "$onTabOpen",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "id" : "f456045b-8187-42ee-a6c0-b75c162697ba",
+                                  "handlers" : [ "refresh" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "kpi_no_plan",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "f456045b-8187-42ee-a6c0-b75c162697ba",
+                                  "handlers" : [ "refresh" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "A_filter",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "f456045b-8187-42ee-a6c0-b75c162697ba",
+                                  "handlers" : [ "refresh" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                } ],
+                                "datasource" : {
+                                  "name" : "xb_no_plan_general",
+                                  "type" : "view",
+                                  "isReadOnly" : true,
+                                  "schema" : "benchmarking",
+                                  "seriesColors" : { }
+                                },
+                                "pagination" : {
+                                  "currentPage" : 1,
+                                  "totalItems" : null,
+                                  "itemsPerPage" : 200
+                                },
+                                "columns" : [ ],
+                                "whereClauseVariable" : null,
+                                "title" : "Number of Plan",
+                                "subtitle" : "",
+                                "xAxis" : {
+                                  "title" : {
+                                    "text" : ""
+                                  },
+                                  "type" : ""
+                                },
+                                "yAxis" : {
+                                  "title" : {
+                                    "text" : ""
+                                  }
+                                },
+                                "ref" : { },
+                                "xAxisField" : "aggregate_type",
+                                "yAxisFields" : [ {
+                                  "id" : 2,
+                                  "dataKey" : "business_data",
+                                  "customLabel" : "Business Data",
+                                  "fill" : "#83BD59",
+                                  "selectedChart" : "bar"
+                                }, {
+                                  "id" : 3,
+                                  "dataKey" : "benchmark_data",
+                                  "customLabel" : "Benchmark Data",
+                                  "fill" : "#66B6DE",
+                                  "selectedChart" : "bar"
+                                }, {
+                                  "id" : 4,
+                                  "dataKey" : "peer_group_data",
+                                  "customLabel" : "Peer Group Data",
+                                  "fill" : "#E5682E",
+                                  "selectedChart" : "bar"
+                                } ],
+                                "layoutSize" : null,
+                                "titleAlignment" : "center",
+                                "subtitleAlignment" : "left",
+                                "helpIconValue" : null,
+                                "helpIconPosition" : "alignLeft",
+                                "helpIconTooltipPosition" : "right",
+                                "shouldRenderHidden" : false
+                              },
+                              "control_315" : {
+                                "type" : "button",
+                                "controlId" : "6e6839e4-3d70-4252-a636-253c42ce0f88",
+                                "accessRoles" : null,
+                                "privileges" : null,
+                                "styles" : {
+                                  "useComponentShadow" : false,
+                                  "useGreyBackground" : false,
+                                  "useInnerGreyBackground" : false
+                                },
+                                "events" : [ {
+                                  "name" : "nc_show_hide_1",
+                                  "eventSelection" : "CREATE_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "6e6839e4-3d70-4252-a636-253c42ce0f88",
+                                  "handlers" : [ ],
+                                  "handlerArgs" : [ ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_show_hide_1",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "6e6839e4-3d70-4252-a636-253c42ce0f88",
+                                  "handlers" : [ "toggle" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "Refresh_underlying_no_plan",
+                                  "eventSelection" : "CREATE_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : "",
+                                    "validationLogic" : [ ]
+                                  },
+                                  "id" : "6e6839e4-3d70-4252-a636-253c42ce0f88",
+                                  "handlers" : [ ],
+                                  "handlerArgs" : [ ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                } ],
+                                "controlData" : "Explore",
+                                "layoutSize" : null,
+                                "buttonColorType" : "secondary",
+                                "icon" : "Chevron Down",
+                                "iconPosition" : "left",
+                                "shouldRenderHidden" : false
+                              },
+                              "control_316" : {
+                                "type" : "button",
+                                "controlId" : "82ce903f-2cd4-4538-aa22-45a85dd08a69",
+                                "accessRoles" : null,
+                                "privileges" : null,
+                                "styles" : {
+                                  "useComponentShadow" : false,
+                                  "useGreyBackground" : false,
+                                  "useInnerGreyBackground" : false
+                                },
+                                "events" : [ {
+                                  "name" : "$onTabOpen",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "82ce903f-2cd4-4538-aa22-45a85dd08a69",
+                                  "handlers" : [ "hide" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "kpi_no_plan",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "82ce903f-2cd4-4538-aa22-45a85dd08a69",
+                                  "handlers" : [ "hide" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_show_hide_1",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "82ce903f-2cd4-4538-aa22-45a85dd08a69",
+                                  "handlers" : [ "toggle" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_show_hide_1",
+                                  "eventSelection" : "CREATE_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : "",
+                                    "validationLogic" : [ ]
+                                  },
+                                  "id" : "82ce903f-2cd4-4538-aa22-45a85dd08a69",
+                                  "handlers" : [ ],
+                                  "handlerArgs" : [ ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                } ],
+                                "controlData" : "Hide",
+                                "layoutSize" : null,
+                                "buttonColorType" : "secondary",
+                                "icon" : "Chevron Up",
+                                "iconPosition" : "left",
+                                "shouldRenderHidden" : false
+                              },
+                              "control_325" : {
+                                "type" : "label",
+                                "controlId" : "1c74525c-26b4-4f88-9210-f4aeaa60b558",
+                                "accessRoles" : null,
+                                "privileges" : null,
+                                "styles" : {
+                                  "useComponentShadow" : false,
+                                  "useGreyBackground" : false,
+                                  "useInnerGreyBackground" : false
+                                },
+                                "events" : [ {
+                                  "name" : "$onTabOpen",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "1c74525c-26b4-4f88-9210-f4aeaa60b558",
+                                  "handlers" : [ "hide" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_show_hide_1",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "1c74525c-26b4-4f88-9210-f4aeaa60b558",
+                                  "handlers" : [ "toggle" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "kpi_no_plan",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "1c74525c-26b4-4f88-9210-f4aeaa60b558",
+                                  "handlers" : [ "hide" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                } ],
+                                "controlData" : "",
+                                "layoutSize" : 83.33,
+                                "intl" : false,
+                                "helpIconPosition" : "alignLeft",
+                                "helpIconTooltipPosiiton" : "right",
+                                "helpIconValue" : null,
+                                "shouldRenderHidden" : false
+                              },
+                              "control_320" : {
+                                "type" : "dropdown",
+                                "controlId" : "b9590f8d-e8b3-4640-bf5e-c997c6e3b3ec",
+                                "accessRoles" : null,
+                                "privileges" : null,
+                                "styles" : {
+                                  "useComponentShadow" : false,
+                                  "useGreyBackground" : false,
+                                  "useInnerGreyBackground" : false
+                                },
+                                "events" : [ {
+                                  "name" : "$onTabOpen",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "b9590f8d-e8b3-4640-bf5e-c997c6e3b3ec",
+                                  "handlers" : [ "hide" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "Refresh_underlying_no_plan",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "id" : "b9590f8d-e8b3-4640-bf5e-c997c6e3b3ec",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "handlers" : [ "refresh" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_show_hide_1",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "b9590f8d-e8b3-4640-bf5e-c997c6e3b3ec",
+                                  "handlers" : [ "toggle" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "u_default_filter",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "b9590f8d-e8b3-4640-bf5e-c997c6e3b3ec",
+                                  "handlers" : [ "assignCurrentVariable", "refresh" ],
+                                  "handlerArgs" : [ { }, { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_25",
+                                  "eventSelection" : "CREATE_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : "",
+                                    "validationLogic" : [ {
+                                      "expression" : "EQUALS",
+                                      "value" : "PERCENTILE_25",
+                                      "datatype" : "STRING",
+                                      "variableName" : "v_chart_no_plan"
+                                    } ],
+                                    "validationLogicCombinator" : "AND"
+                                  },
+                                  "id" : "b9590f8d-e8b3-4640-bf5e-c997c6e3b3ec",
+                                  "handlers" : [ ],
+                                  "handlerArgs" : [ ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_50",
+                                  "eventSelection" : "CREATE_EVENT",
+                                  "id" : "b9590f8d-e8b3-4640-bf5e-c997c6e3b3ec",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : "",
+                                    "validationLogic" : [ {
+                                      "expression" : "EQUALS",
+                                      "value" : "PERCENTILE_50",
+                                      "datatype" : "STRING",
+                                      "variableName" : "v_chart_no_plan"
+                                    } ],
+                                    "validationLogicCombinator" : "AND"
+                                  },
+                                  "handlers" : [ ],
+                                  "handlerArgs" : [ ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_75",
+                                  "eventSelection" : "CREATE_EVENT",
+                                  "id" : "b9590f8d-e8b3-4640-bf5e-c997c6e3b3ec",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : "",
+                                    "validationLogic" : [ {
+                                      "expression" : "EQUALS",
+                                      "value" : "PERCENTILE_75",
+                                      "datatype" : "STRING",
+                                      "variableName" : "v_chart_no_plan"
+                                    } ],
+                                    "validationLogicCombinator" : "AND"
+                                  },
+                                  "handlers" : [ ],
+                                  "handlerArgs" : [ ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_90",
+                                  "eventSelection" : "CREATE_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : "",
+                                    "validationLogic" : [ {
+                                      "expression" : "EQUALS",
+                                      "value" : "PERCENTILE_90",
+                                      "datatype" : "STRING",
+                                      "variableName" : "v_chart_no_plan"
+                                    } ],
+                                    "validationLogicCombinator" : "AND"
+                                  },
+                                  "id" : "b9590f8d-e8b3-4640-bf5e-c997c6e3b3ec",
+                                  "handlers" : [ ],
+                                  "handlerArgs" : [ ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_a",
+                                  "eventSelection" : "CREATE_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : "",
+                                    "validationLogic" : [ {
+                                      "expression" : "EQUALS",
+                                      "value" : "AVERAGE",
+                                      "datatype" : "STRING",
+                                      "variableName" : "v_chart_no_plan"
+                                    } ],
+                                    "validationLogicCombinator" : "AND"
+                                  },
+                                  "id" : "b9590f8d-e8b3-4640-bf5e-c997c6e3b3ec",
+                                  "handlers" : [ ],
+                                  "handlerArgs" : [ ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "kpi_no_plan",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "b9590f8d-e8b3-4640-bf5e-c997c6e3b3ec",
+                                  "handlers" : [ "hide" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                } ],
+                                "datasource" : {
+                                  "name" : "bench_chart",
+                                  "type" : "view",
+                                  "isReadOnly" : true,
+                                  "schema" : "benchmarking",
+                                  "seriesColors" : { }
+                                },
+                                "pagination" : {
+                                  "currentPage" : 1,
+                                  "totalItems" : null,
+                                  "itemsPerPage" : 200
+                                },
+                                "columns" : [ ],
+                                "whereClauseVariable" : null,
+                                "variables" : [ {
+                                  "name" : "v_chart_no_plan"
+                                } ],
+                                "isMultiSelect" : false,
+                                "shouldHideLabel" : false,
+                                "displayField" : {
+                                  "dataType" : "string",
+                                  "name" : "name_field"
+                                },
+                                "valueField" : {
+                                  "dataType" : "string",
+                                  "name" : "value_field"
+                                },
+                                "labelText" : "Select Chart",
+                                "layoutSize" : 16.66,
+                                "shouldRenderHidden" : false,
+                                "allowClearForSingleSelect" : false
+                              },
+                              "control_321" : {
+                                "type" : "composedChart",
+                                "controlId" : "15d09e39-1082-45bf-847c-3d19327c7920",
+                                "accessRoles" : null,
+                                "privileges" : null,
+                                "styles" : {
+                                  "useComponentShadow" : false,
+                                  "useGreyBackground" : false,
+                                  "useInnerGreyBackground" : false
+                                },
+                                "events" : [ {
+                                  "name" : "$onTabOpen",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "id" : "15d09e39-1082-45bf-847c-3d19327c7920",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "handlers" : [ "hide" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_show_hide_1",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "id" : "15d09e39-1082-45bf-847c-3d19327c7920",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "handlers" : [ "toggle" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "Refresh_underlying_no_plan",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "15d09e39-1082-45bf-847c-3d19327c7920",
+                                  "handlers" : [ "refresh" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_25",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "15d09e39-1082-45bf-847c-3d19327c7920",
+                                  "handlers" : [ "refresh" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_50",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "15d09e39-1082-45bf-847c-3d19327c7920",
+                                  "handlers" : [ "refresh" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_75",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "15d09e39-1082-45bf-847c-3d19327c7920",
+                                  "handlers" : [ "refresh" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_90",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "15d09e39-1082-45bf-847c-3d19327c7920",
+                                  "handlers" : [ "refresh" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_a",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "15d09e39-1082-45bf-847c-3d19327c7920",
+                                  "handlers" : [ "refresh" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "A_filter",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "15d09e39-1082-45bf-847c-3d19327c7920",
+                                  "handlers" : [ "refresh" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "kpi_no_plan",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "15d09e39-1082-45bf-847c-3d19327c7920",
+                                  "handlers" : [ "hide" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                } ],
+                                "datasource" : {
+                                  "name" : "xb_no_plan_time",
+                                  "type" : "view",
+                                  "isReadOnly" : true,
+                                  "schema" : "benchmarking",
+                                  "seriesColors" : { }
+                                },
+                                "pagination" : {
+                                  "currentPage" : 1,
+                                  "totalItems" : null,
+                                  "itemsPerPage" : 200
+                                },
+                                "columns" : [ ],
+                                "whereClauseVariable" : "v_chart_no_plan",
+                                "title" : "Time",
+                                "subtitle" : "",
+                                "xAxis" : {
+                                  "title" : {
+                                    "text" : ""
+                                  },
+                                  "type" : ""
+                                },
+                                "yAxis" : {
+                                  "title" : {
+                                    "text" : ""
+                                  }
+                                },
+                                "ref" : { },
+                                "xAxisField" : "chart_label",
+                                "yAxisFields" : [ {
+                                  "id" : 2,
+                                  "dataKey" : "business_data",
+                                  "customLabel" : "Business Data",
+                                  "fill" : "#83BD59",
+                                  "selectedChart" : "line"
+                                }, {
+                                  "id" : 3,
+                                  "dataKey" : "benchmark_data",
+                                  "customLabel" : "Benchmark Data",
+                                  "fill" : "#66B6DE",
+                                  "selectedChart" : "line"
+                                }, {
+                                  "id" : 4,
+                                  "dataKey" : "peer_group_data",
+                                  "customLabel" : "Peer Group Data",
+                                  "fill" : "#E5682E",
+                                  "selectedChart" : "line"
+                                } ],
+                                "layoutSize" : 33.33,
+                                "titleAlignment" : "center",
+                                "subtitleAlignment" : "left",
+                                "helpIconValue" : null,
+                                "helpIconPosition" : "alignLeft",
+                                "helpIconTooltipPosition" : "right",
+                                "shouldRenderHidden" : false
+                              },
+                              "control_323" : {
+                                "type" : "composedChart",
+                                "controlId" : "cf161d4f-5665-45b8-b0e3-88818b7dd283",
+                                "accessRoles" : null,
+                                "privileges" : null,
+                                "styles" : {
+                                  "useComponentShadow" : false,
+                                  "useGreyBackground" : false,
+                                  "useInnerGreyBackground" : false
+                                },
+                                "events" : [ {
+                                  "name" : "$onTabOpen",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "id" : "cf161d4f-5665-45b8-b0e3-88818b7dd283",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "handlers" : [ "hide" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_show_hide_1",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "cf161d4f-5665-45b8-b0e3-88818b7dd283",
+                                  "handlers" : [ "toggle" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "Refresh_underlying_no_plan",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "cf161d4f-5665-45b8-b0e3-88818b7dd283",
+                                  "handlers" : [ "refresh" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_25",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "cf161d4f-5665-45b8-b0e3-88818b7dd283",
+                                  "handlers" : [ "refresh" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_50",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "cf161d4f-5665-45b8-b0e3-88818b7dd283",
+                                  "handlers" : [ "refresh" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_75",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "cf161d4f-5665-45b8-b0e3-88818b7dd283",
+                                  "handlers" : [ "refresh" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_90",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "cf161d4f-5665-45b8-b0e3-88818b7dd283",
+                                  "handlers" : [ "refresh" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_a",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "cf161d4f-5665-45b8-b0e3-88818b7dd283",
+                                  "handlers" : [ "refresh" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "A_filter",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "cf161d4f-5665-45b8-b0e3-88818b7dd283",
+                                  "handlers" : [ "refresh" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "kpi_no_plan",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "cf161d4f-5665-45b8-b0e3-88818b7dd283",
+                                  "handlers" : [ "hide" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                } ],
+                                "datasource" : {
+                                  "name" : "xb_no_plan_distribution",
+                                  "type" : "view",
+                                  "isReadOnly" : true,
+                                  "schema" : "benchmarking",
+                                  "seriesColors" : { }
+                                },
+                                "pagination" : {
+                                  "currentPage" : 1,
+                                  "totalItems" : null,
+                                  "itemsPerPage" : 200
+                                },
+                                "columns" : [ ],
+                                "whereClauseVariable" : null,
+                                "title" : "Distribution",
+                                "subtitle" : "",
+                                "xAxis" : {
+                                  "title" : {
+                                    "text" : ""
+                                  },
+                                  "type" : ""
+                                },
+                                "yAxis" : {
+                                  "title" : {
+                                    "text" : ""
+                                  }
+                                },
+                                "ref" : { },
+                                "xAxisField" : "chart_label",
+                                "yAxisFields" : [ {
+                                  "id" : 2,
+                                  "dataKey" : "benchmark_data",
+                                  "customLabel" : "Benchmark Data",
+                                  "fill" : "#66B6DE",
+                                  "selectedChart" : "bar"
+                                }, {
+                                  "id" : 3,
+                                  "dataKey" : "peer_group_data",
+                                  "customLabel" : "Peer Group Data",
+                                  "fill" : "#E5682E",
+                                  "selectedChart" : "bar"
+                                } ],
+                                "layoutSize" : 33.33,
+                                "titleAlignment" : "center",
+                                "subtitleAlignment" : "left",
+                                "helpIconValue" : null,
+                                "helpIconPosition" : "alignLeft",
+                                "helpIconTooltipPosition" : "right",
+                                "shouldRenderHidden" : false
+                              },
+                              "control_324" : {
+                                "type" : "composedChart",
+                                "controlId" : "7703be44-3442-4a92-ab4b-4c3e4335a487",
+                                "accessRoles" : null,
+                                "privileges" : null,
+                                "styles" : {
+                                  "useComponentShadow" : false,
+                                  "useGreyBackground" : false,
+                                  "useInnerGreyBackground" : false
+                                },
+                                "events" : [ {
+                                  "name" : "$onTabOpen",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "id" : "7703be44-3442-4a92-ab4b-4c3e4335a487",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "handlers" : [ "hide" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_show_hide_1",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "7703be44-3442-4a92-ab4b-4c3e4335a487",
+                                  "handlers" : [ "toggle" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "Refresh_underlying_no_plan",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "7703be44-3442-4a92-ab4b-4c3e4335a487",
+                                  "handlers" : [ "refresh" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "A_filter",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "7703be44-3442-4a92-ab4b-4c3e4335a487",
+                                  "handlers" : [ "refresh" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_25",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "7703be44-3442-4a92-ab4b-4c3e4335a487",
+                                  "handlers" : [ "refresh" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_50",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "7703be44-3442-4a92-ab4b-4c3e4335a487",
+                                  "handlers" : [ "refresh" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_75",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "7703be44-3442-4a92-ab4b-4c3e4335a487",
+                                  "handlers" : [ "refresh" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_90",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "7703be44-3442-4a92-ab4b-4c3e4335a487",
+                                  "handlers" : [ "refresh" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "nc_a",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "7703be44-3442-4a92-ab4b-4c3e4335a487",
+                                  "handlers" : [ "refresh" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                }, {
+                                  "name" : "kpi_no_plan",
+                                  "eventSelection" : "BIND_EVENT",
+                                  "broadcastArgs" : {
+                                    "validationXsql" : ""
+                                  },
+                                  "id" : "7703be44-3442-4a92-ab4b-4c3e4335a487",
+                                  "handlers" : [ "hide" ],
+                                  "handlerArgs" : [ { } ],
+                                  "preHandlers" : [ ],
+                                  "preHandlerArgs" : [ ]
+                                } ],
+                                "datasource" : {
+                                  "name" : "xb_no_plan_industry",
+                                  "type" : "view",
+                                  "isReadOnly" : true,
+                                  "schema" : "benchmarking",
+                                  "seriesColors" : { }
+                                },
+                                "pagination" : {
+                                  "currentPage" : 1,
+                                  "totalItems" : null,
+                                  "itemsPerPage" : 200
+                                },
+                                "columns" : [ ],
+                                "whereClauseVariable" : null,
+                                "title" : "Industry",
+                                "subtitle" : "",
+                                "xAxis" : {
+                                  "title" : {
+                                    "text" : ""
+                                  },
+                                  "type" : ""
+                                },
+                                "yAxis" : {
+                                  "title" : {
+                                    "text" : ""
+                                  }
+                                },
+                                "ref" : { },
+                                "xAxisField" : "chart_label",
+                                "yAxisFields" : [ {
+                                  "id" : 2,
+                                  "dataKey" : "business_data",
+                                  "customLabel" : "Business Data",
+                                  "fill" : "#83BD59",
+                                  "selectedChart" : "bar"
+                                } ],
+                                "layoutSize" : 33.33,
+                                "titleAlignment" : "center",
+                                "subtitleAlignment" : "left",
+                                "helpIconValue" : null,
+                                "helpIconPosition" : "alignLeft",
+                                "helpIconTooltipPosition" : "right",
+                                "shouldRenderHidden" : false
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "innerCanvasMappings" : {
+                        "pageSchema" : "appElements"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements"
+            },
+            "shouldRenderHidden" : false,
+            "maxHeight" : null
+          }
+        }
+      }
+    }
+  },
+  "title" : "xbn_base"
+}
